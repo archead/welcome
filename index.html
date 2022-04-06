@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <div class="center">
-        <p id="name">German Reymer</p>
-        <p id="title">Software Engineer</p>
-        <p class="zoom" style="text-align:center;"><i class="arrow down"></i></p>
+  <body>
+    <nav>
+      <a href="#showcase">Home</a> | <a href="#skills">Skills</a> |
+      <a href="#projects">Projects</a>
+    </nav>
+
+    <div id="showcase">
+      <p id="name">German Reymer</p>
+      <p id="title">Software Engineer</p>
+      <p class="zoom" style="text-align: center">
+        <i class="arrow down"></i>
+      </p>
     </div>
-    <br><br>
 
+    <div id="skills">
+      <h1 style="text-align: center">Skills</h1>
+      <div class="grid-container">
+        <div class="grid-item grid-item-1">Python</div>
+        <div class="grid-item grid-item-2">C/C++</div>
+        <div class="grid-item grid-item-3">GNU/Linux</div>
+        <div class="grid-item grid-item-4">Java</div>
+        <div class="grid-item grid-item-5">HTML/CSS</div>
+        <div class="grid-item grid-item-6">JavaScript</div>
+      </div>
+    </div>
 
-    <div>
-        <h1 style="text-align: center">Skills</h1>
-        <div class="grid-container">
-            <div class="grid-item grid-item-1">Python</div>
-            <div class="grid-item grid-item-2">C/C++</div>
-            <div class="grid-item grid-item-3">GNU/Linux</div>
-            <div class="grid-item grid-item-4">Java</div>
-            <div class="grid-item grid-item-5">HTML/CSS</div>
-            <div class="grid-item grid-item-6">JavaScript</div>
+    <div id="projects">
+      <h1 style="text-align: center">Projects</h1>
+      <div class="grid-container">
+        <div class="grid-item grid-item-1">
+          ChocoMilk
+          <p>
+            An easy to use one-line powershell script to instantly install all
+            your desired software via chocolatey
+          </p>
         </div>
-    </div>
-
-
-    <div>
-        <h1 style="text-align: center">Projects</h1>
-        <div class="flexbox-container">
-            <div class="flexbox-item">ChocoMilk</div>
-            <div class="flexbox-item">Pathfinder</div>
-            <div class="flexbox-item">Midgen</div>
+        <div class="grid-item grid-item-2">
+          Pathfinder
+          <p>A visualzier for pathfinding algorithms built on pygame</p>
         </div>
+        <div class="grid-item grid-item-3">
+          Midgen
+          <p>
+            An automation system for quickly creating student feedback sheets
+            for swimming lessos
+          </p>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
