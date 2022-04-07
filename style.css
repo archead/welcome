@@ -1,6 +1,14 @@
-@media (min-width: 300px) {}
+@media (min-width: 300px) {
+    .font {
+        font-size: 15px;
+    }
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .font {
+        font-size: 25px;
+    }
+}
 
 * {
     margin: 0;
@@ -85,10 +93,6 @@ a:hover {
     text-decoration: none;
 }
 
-.font {
-    font-size: 17px;
-}
-
 .arrow {
     text-align: center;
     border: solid #a69286;
@@ -149,7 +153,7 @@ a:hover {
 }
 
 .projects-grid-item {
-    column-width: 250px;
+    column-width: 300px;
     display: inline-block;
     background-color: #616f4e;
     padding: 15px;
