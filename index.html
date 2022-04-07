@@ -1,73 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <nav>
-      <a href="#showcase">Home</a> | <a href="#skills">Skills</a> |
-      <a href="#projects">Projects</a>
+        <a href="#home">Home</a> | <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a>
     </nav>
 
-    <div id="showcase">
-      <p id="name">German Reymer</p>
-      <p id="title">Software Engineer</p>
-      <p class="zoom" style="text-align: center">
-        <i class="arrow down"></i>
-      </p>
-    </div>
-
-    <div style="background-color: blue; text-align: center; padding: 100px">
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
-        perferendis.
-      </p>
-    </div>
-
-    <div id="skills" class="font">
-      <h1 style="padding-bottom: 10px">Skills</h1>
-      <div class="grid-container">
-        <div class="grid-item grid-item-1">Python</div>
-        <div class="grid-item grid-item-2">C/C++</div>
-        <div class="grid-item grid-item-3">GNU/Linux</div>
-        <div class="grid-item grid-item-4">Java</div>
-        <div class="grid-item grid-item-5">HTML/CSS</div>
-        <div class="grid-item grid-item-6">JavaScript</div>
-      </div>
-      <p class="zoom" style="text-align: center">
-        <i class="arrow down"></i>
-      </p>
-    </div>
-
-    <div id="projects" class="font">
-      <h1 style="padding-bottom: 10px">Projects</h1>
-      <div class="grid-container">
-        <div class="grid-item grid-item-1">
-          <u>ChocoMilk</u>
-          <p>
-            An easy to use one-line powershell script to instantly install all
-            your desired software via chocolatey
-          </p>
+    <div class="scroll-container">
+        <div id="home" class="scroll-area">
+            <div class="center">
+                <h1 id="name">Archead</h1>
+                <h2 id="title">4th Year Software Engineer</h2>
+                <p class="zoom" style="text-align: center">
+                    <i class="arrow down"></i>
+                </p>
+            </div>
         </div>
-        <div class="grid-item grid-item-2">
-          <u>Pathfinder</u>
-          <p>A visualzier for pathfinding algorithms built on pygame</p>
+        <div id="skills" class="font scroll-area">
+            <div class="center">
+                <h1 style="padding-bottom: 10px">Skills</h1>
+                <div class="skills-grid-container">
+                    <div class="grid-item">Python</div>
+                    <div class="grid-item">C/C++</div>
+                    <div class="grid-item">GNU/Linux</div>
+                    <div class="grid-item">Java</div>
+                    <div class="grid-item">HTML/CSS</div>
+                    <div class="grid-item">JavaScript</div>
+                </div>
+            </div>
         </div>
-        <div class="grid-item grid-item-3">
-          <u>Midgen</u>
-          <p>
-            An automation system for quickly creating student feedback sheets
-            for swimming lessos
-          </p>
+        <div id="projects" class="font scroll-area">
+            <div class="center">
+                <h1 style="padding-bottom: 10px">Projects</h1>
+                <div class="projects-grid-container">
+                    <div class="projects-grid-item">
+                        <b><u>ChocoMilk</u></b>
+                        <p>
+                            An easy to use one-line powershell script to instantly install all your desired software via chocolatey
+                        </p>
+                    </div>
+                    <div class="projects-grid-item">
+                        <b><u>Pathfinder</u></b>
+                        <p>Live Visualization for the grassfire pathfinding algorithm implemented with pyGame</p>
+                    </div>
+                    <div class="projects-grid-item">
+                        <b><u>Midgen</u></b>
+                        <p>
+                            An automation system for quickly creating student feedback sheets for swimming lessons
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <p class="zoom" style="text-align: center">
-        <i class="arrow up"></i>
-      </p>
     </div>
-  </body>
+</body>
+
 </html>
