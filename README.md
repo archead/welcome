@@ -26,11 +26,12 @@ To maintain the theme of simplicty everyting was implemented using only HTML/CSS
  ┃ ┗ 📜style.css
  ┣ 📂fonts // custom font
  ┃ ┗ 📜RobotoMono.ttf
- ┣ 📂img // background image, favicon, github/e-mail logo
- ┃ ┣ 📜1.jpg
- ┃ ┣ 📜favi.ico
- ┃ ┣ 📜gh.svg
- ┃ ┗ 📜mail.png
+ ┣ 📂img // contains all images used on the site
+ ┃ ┣ 📜1.jpg // background
+   ┣ 📜1-blur.jpg // blurred version of background
+ ┃ ┣ 📜favi.ico // favicon
+ ┃ ┣ 📜gh.svg // github logo
+ ┃ ┗ 📜mail.png // unused email icon
  ┣ 📜index.html // main html file
  ┗ 📜README.md
 ```
